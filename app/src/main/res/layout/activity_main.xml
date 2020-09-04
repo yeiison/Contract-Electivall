@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#423E3E"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/mouse_memoirs"
+            android:text="CONTRACT"
+            android:textColor="#FFFFFF"
+            android:textSize="64sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="284dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/contract" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress4"
+            android:layout_width="284dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#FFFDFD"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:paddingStart="15dp"
+            android:singleLine="false"
+            android:textColorHint="#201D1D" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="284dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:background="#FFFDFD"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:outlineAmbientShadowColor="#F1F3F4"
+            android:outlineSpotShadowColor="#B60D0D"
+            android:paddingStart="15dp"
+            android:textColorHint="#201D1D" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Olvido la contraseña?"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF473A"
+            android:text="Iniciar sesion"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿No tienes una cuenta?"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
