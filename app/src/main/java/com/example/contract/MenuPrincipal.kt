@@ -1,8 +1,10 @@
 package com.example.contract
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import kotlinx.android.synthetic.main.activity_login_contract.*
 import kotlinx.android.synthetic.main.activity_menu_principal.*
 
 class MenuPrincipal : AppCompatActivity() {
@@ -19,5 +21,13 @@ class MenuPrincipal : AppCompatActivity() {
         //3. Conectar la lista con el adaptador
         serviciosList.adapter=adapter
 
+        btnReturnLogin.setOnClickListener { _ -> returnLogin() }
+
+
+    }
+
+    fun returnLogin() {
+        val loginContract = Intent(this, LoginContract::class.java)
+        startActivity(loginContract)
     }
 }
