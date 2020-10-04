@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#423E3E"
-    tools:context=".MainActivity">
+    tools:context=".LoginContract">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -71,10 +71,10 @@
             android:textColor="#FFFFFF" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_marginTop="30dp"
+            android:id="@+id/btnIniciarSesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:background="#FF473A"
             android:text="Iniciar sesion"
             android:textColor="#FFFFFF" />
