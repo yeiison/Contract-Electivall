@@ -11,10 +11,11 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:id="@+id/btnReturnLogin"
+            android:id="@+id/btnReturnMecanico"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:background="#FFFFFF"
+            android:backgroundTint="#00FFFFFF"
             app:srcCompat="@drawable/atras" />
 
         <TextView

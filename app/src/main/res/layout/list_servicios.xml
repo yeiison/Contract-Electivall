@@ -19,36 +19,11 @@
                     android:background="@drawable/gray_line"
                     app:srcCompat="@drawable/electr" />
 
-                <ImageView
-                    android:id="@+id/imageView6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/gray_line"
-                    android:contentDescription="TODO"
-                    app:srcCompat="@drawable/mecanico" />
-
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/gray_line"
-                    app:srcCompat="@drawable/constructor" />
-
-                <ImageView
-                    android:id="@+id/imageView9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/gray_line"
-                    app:srcCompat="@drawable/aseo" />
-
                 <ImageButton
                     android:id="@+id/imageButton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/electr" />
+                    app:srcCompat="@drawable/mecanico" />
 
                 <ImageView
                     android:id="@+id/imageView"
